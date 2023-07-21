@@ -1,8 +1,8 @@
 
 fun main() {
     val calc = Calculator()
-    var num1
-    var num2
+    var num1 = readLine()!!.toInt()
+    var num2 = readLine()!!.toInt()
     
     println("${num1} 더하기 ${num2} 결과는 : ${calc.addOperation(AddOperation(), num1, num2)} 입니다")
     println("${num1} 뺴기 ${num2} 결과는 : ${calc.substractOperation(SubstractOperation(), num1, num2)} 입니다")
