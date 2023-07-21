@@ -15,13 +15,13 @@ class AddOperation{
 }
 
 class SubstractOperation{
-   fun operate(num1: Int, num2: Int): Double = (num1 + num2).toDouble()
+   fun operate(num1: Int, num2: Int): Double = (num1 - num2).toDouble()
 }
 
 class MultiplyOperation{
-   fun operate(num1: Int, num2: Int): Double = (num1 + num2).toDouble()
+   fun operate(num1: Int, num2: Int): Double = (num1 * num2).toDouble()
 }
 
 class DivideOperation{
-   fun operate(num1: Int, num2: Int): Double = (num1 + num2).toDouble()
+   fun operate(num1: Int, num2: Int): Double = (num1 / num2).toDouble()
 }
