@@ -5,8 +5,8 @@ fun main() {
 }
 
 class Calculator {
-    fun addOperation(##답안##): Double {
-        return ##답안##
+    fun addOperation(): Double {
+        return 
     }
 }
 
