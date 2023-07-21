@@ -6,7 +6,9 @@ fun main() {
 
 class Calculator {
     fun addOperation(num1: Int, num2: Int): Double {
-        return 
+        var num3 = num1 + num2
+        
+        return num3
     }
 }
 
