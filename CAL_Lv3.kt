@@ -5,7 +5,7 @@ fun main() {
 }
 
 class Calculator {
-    fun addOperation(): Double {
+    fun addOperation(num1: Int, num2: Int): Double {
         return 
     }
 }
